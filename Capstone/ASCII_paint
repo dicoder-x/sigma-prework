@@ -3,8 +3,8 @@ import curses
 brush = ["#", "*", "@", "+", "-", "|", "/", "\\", "o", "0", "."]
 
 def save():
+    pass
     
-
 def main(stdscr):
     curses.curs_set(0)
     stdscr.keypad(True)
